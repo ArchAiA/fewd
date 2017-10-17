@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,700i|Spectral:400,400i');
+
+
+* {
+}
+
+
+body {
+	font-family: "Open Sans", sans-serif;
+	width: 100%;
+	margin: 0px auto;
+
+}
+
+header {
+	text-align: center;
+	background-color: #FCEE21;
+	color: #333333;
+	padding: 50px;
+}
+
+nav {
+	padding: 0px;
+}
+
+
+img {
+/*	display: block;
+	margin: 25px auto;*/
+	display: flex;
+	padding: 5px;
+}
+
+div#container {
+/*	width: 50%;
+	display: block;
+	margin: 0 auto;
+	text-align: left;
+	border: 3px solid black;
+*/
+	position: relative;
+	margin: 0 auto;
+	align-self: flex-start;
+}
+
+div#container p {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	transform: translateX(-50%);
+
+}
+
+
+
+
+header nav a {
+	font-size: 16px;
+	/*text-decoration: none;*/
+}
+
+p, h3 {
+	font-family: "Spectral", sans-serif;
+}
+
+p, footer {
+	padding: 0px 25px;
+
+}
+
+h1, h2, h3 {
+	font-weight: 700;
+}
+
+
+
+
+
+
+h1 {
+	font-size: 40px;
+	color: #333333;
+}
+
+h2 {
+	font-size: 24px;
+	
+}
+
+h3 {
+	font-size: 22px;
+	font-style: italic;
+}
+
+p {
+	font-size: 20px;
+/*	text-align: center;
+*//*	margin: 0 auto;
+	width: inherit;*/
+}
+
+article {
+/*	text-align: center;
+*//*	display: block;
+	margin: 25px auto;
+*/}
+
+hr {
+	margin: 100px 0px;
+}
+
+footer {
+	background-color: #FCEE21;
+}
