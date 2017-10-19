@@ -4,10 +4,65 @@
 Base Styles
 ------------------------------------------- */
 body {
+	font-family: "Raleway", sans-serif;
+	font-weight:600;
+	color: #44545E;
+	margin: 0 auto;	
+	text-align: center;
+}
 
+a {
+	text-decoration: none;
+ 	color: #7B98AA;
+}
+
+nav {
+	color: #7B98AA;
+	font-size: 16px;
+	/*font-weight: 600;*/
 }
 
 /* Fix for responsive images */
 img {
 	max-width: 100%;
+}
+
+h1 {
+	font-size: 37px;
+	/*font-weight: 600;*/
+}
+
+h2 {
+	font-size: 23px;
+}
+
+footer {
+	background-color: #CDF3F6;
+	font-size:15px;
+	text-decoration: none;
+	text-decoration-style: none;
+
+}
+
+hr {
+	background-color: #44545E;
+	color: #44545E;
+}
+
+
+
+
+nav a, footer a {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+article p {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+
+footer {
 }

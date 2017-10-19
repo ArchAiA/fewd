@@ -1,6 +1,12 @@
+
+
+
 body {
   line-height: 1.4;
   margin: 3em;
+  color: #00CC99;
+  font-family: "Georgia", sans-serif;
+  font-style: italic;
   /* Step 1:  First make all the text on the page #00CC99 */
   /* And change the font-family to Georgia, sans-serif */
 
