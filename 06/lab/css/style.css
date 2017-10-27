@@ -1,0 +1,136 @@
+
+/*Add a link to Google Fonts at the top! THis should be the first line of your stylesheet.*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+	font-size: 23px;
+	text-align: center;
+	color: #44545E;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+a {
+	color: #7B98AA;	
+	text-decoration: none;
+}
+
+
+h1 {
+	font-size: 37px;
+}
+
+
+h2 {
+
+}
+
+
+h3 {
+	font-size: 18px;
+}
+
+
+p {
+	font-size: 15px;
+}
+
+/* ----------------------------------------
+nav
+------------------------------------------- */
+nav {
+	display: inline-block;
+	font-size: 16px;
+
+
+
+}
+
+header {
+	background-image: url("../images/home_header_bg.jpg");
+	background-repeat: none;
+ 	color: #FFFFFF;
+}
+
+, header>h1>a{}
+
+
+/* ----------------------------------------
+main
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+section
+------------------------------------------- */
+section {
+}
+
+
+/* ----------------------------------------
+article
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+header
+------------------------------------------- */
+
+
+
+
+/* ----------------------------------------
+footer
+------------------------------------------- */
+footer {
+
+}
+
+
+
+
+
+
+article > a {
+	display: inline-block;
+	font-family: "Lato", sans-serif;
+	font-weight: 600;
+	font-size: 13px;
+	border: 2px solid #44545E;
+	margin: auto;
+	padding: 10px;
+	color: #44545E;
+}
+
+
+
+
+
+
+
+div.article-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+div.gallery-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 0px;
+}

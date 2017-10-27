@@ -18,6 +18,14 @@ main {
 	grid-gap: 10px;
 }
 
+header {
+	background-image: url("../images/blog_header_bg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	min-height: 400px;
+
+	}
+
 a {
 	text-decoration: none;
  	color: #7B98AA;
@@ -27,6 +35,10 @@ nav {
 	color: #7B98AA;
 	font-size: 16px;
 	/*font-weight: 600;*/
+	display: grid;
+	grid-template-columns: auto;
+	grid-gap: 10px;
+
 }
 
 /* Fix for responsive images */
@@ -68,6 +80,8 @@ article p {
 	font-family: "Lato", sans-serif;
 	font-weight: 400;
 	font-size: 15px;
+	width: 800px;
+	text-align: center;
 }
 
 
