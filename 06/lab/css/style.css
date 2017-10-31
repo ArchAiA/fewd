@@ -31,6 +31,8 @@ a {
 
 
 h1 {
+	display: inline-block;
+	vertical-align: middle;
 	font-size: 37px;
 }
 
@@ -50,6 +52,8 @@ p {
 	font-weight: 400;
 	font-size: 15px;
 }
+
+
 
 /* ----------------------------------------
 nav
@@ -74,11 +78,21 @@ nav a {
 header {
 	height: 1067px;
 	background-image: url("../images/home_header_bg.jpg");
+	background-position-y: bottom;
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
  	color: #FFFFFF;
  	max-height: 500px;
+
+ 	display: grid;
+ 	grid-template-columns: repeat(4, 1fr);
+ 	grid-template-rows: repeat(4, 1fr);
+}
+
+.center-content {
+	grid-column: 2/4;
+	grid-row: 2/4;
 }
 
 /*header>div {
@@ -132,8 +146,11 @@ footer {
 }
 
 
-
-
+/*.vcenter {
+	display: inline-block;
+	padding: 500px auto;
+}
+*/
 
 
 article > a {
@@ -151,10 +168,7 @@ article > a {
 
 
 a, button, i {
-    -webkit-transition: opacity 500ms ease-out 250ms;
-    -moz-transition: opacity 500ms ease-out 250ms;
-    -o-transition: opacity 500ms ease-out 250ms;
-    transition: opacity 500ms ease-out 250ms;	
+	transition: opacity 500ms ease-out 250ms;	
 /*    transition: color 1000ms ease-out: 250ms;
 */}
 
@@ -162,6 +176,10 @@ a:hover, button:hover, i:hover {
 	opacity: 0.5;
 /*	color: #CDF3F6;
 */}
+
+
+
+
 
 .gallery-grid img:hover {
 	opacity: 0.6;
