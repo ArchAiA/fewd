@@ -55,10 +55,19 @@ p {
 nav
 ------------------------------------------- */
 nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: white;
+	z-index: 100;
 	display: inline-block;
 	font-size: 16px;
+}
 
-
+nav a {
+	margin-left: 10px;
+	margin-right: 10px;
 
 }
 
@@ -69,6 +78,7 @@ header {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
  	color: #FFFFFF;
+ 	max-height: 500px;
 }
 
 /*header>div {
@@ -83,6 +93,8 @@ header {
 header a{
 	display: inline-block;
 	color:#FFFFFF;
+
+
 }
 
 
@@ -116,7 +128,7 @@ header
 footer
 ------------------------------------------- */
 footer {
-	background-color: #87CEFA;
+	background-color: #CDF3F6;
 }
 
 
@@ -137,6 +149,23 @@ article > a {
 
 
 
+
+a, button, i {
+    -webkit-transition: opacity 500ms ease-out 250ms;
+    -moz-transition: opacity 500ms ease-out 250ms;
+    -o-transition: opacity 500ms ease-out 250ms;
+    transition: opacity 500ms ease-out 250ms;	
+/*    transition: color 1000ms ease-out: 250ms;
+*/}
+
+a:hover, button:hover, i:hover {
+	opacity: 0.5;
+/*	color: #CDF3F6;
+*/}
+
+.gallery-grid img:hover {
+	opacity: 0.6;
+}
 
 
 
