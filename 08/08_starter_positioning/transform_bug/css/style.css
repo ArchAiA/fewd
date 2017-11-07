@@ -1,0 +1,56 @@
+* {
+ box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #F95758;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Open Sans', sans-serif;
+  padding: 12.8px;
+  padding: .8rem;
+  margin-bottom: 200px;
+}
+
+h1 {
+  font-family: 'Bitter', serif;
+  font-weight: normal;
+}
+
+h2, h3 {
+  font-weight: 600;
+}
+
+section {
+  margin-bottom: 5rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+
+/* YOUR CODE HERE */
+.bug1 {
+  transition: transform 2s;
+}
+
+/* Use a transform to animate the first bug on hover */
+.bug1:hover {
+  transform: rotate(360deg);
+}
+
+.bug2 {
+  visibility: visible;
+  transition: transform 1s;
+}
+
+.bug2:hover {
+  transform: visibility(hidden);
+}
+/* Use a transform to animate the second bug on hover */
+
+/* Use TWO transforms to animate the third bug on hover */

@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  height: 90vh;
+  min-height: 400px;
+  padding: 100px 1%;
+  text-align: center;
+  background-color: #F95758;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+header h1 {
+  color: white;
+}
+
+h1 {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 3em;
+  color: #F95758;
+  text-align: center;
+}
+
+article {
+  padding: 1rem;
+}
+
+p {
+  font-family: 'Lora', serif;
+  color: #222;
+  font-size: 25px;
+  padding: 0 3rem;
+  text-align: justify;
+}
+
+#flybug {
+  text-align: center;
+}
+
+
+/* ---------------------------------------------------------
+		M A I N   N A V   S T Y L E S
+	---------------------------------------------------------- */
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: inline-block;
+  margin: 1rem;
+  padding: .25rem 0;
+  text-decoration: none;
+  color: #888;
+}
+
+
+.active {
+  border-bottom: 2px solid #F95758;
+}
+
+
+/* ---------------------------------------------------------
+    Bug Styles
+  ---------------------------------------------------------- */
+.flybug {
+  width: 400px;
+  display: block;
+  margin: 50px auto 30px;
+}
+
+.label-1,
+.label-2,
+.label-3 {
+  height: 27px;
+}
+
+/* ---------------------------------------------------------
+    Student code
+  ---------------------------------------------------------- */
+nav {
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 3px 11px rgba(0, 0, 0, .1);
+  transition: all 300ms ease-out;
+  /* STEP 1: Add styles for fixed nav */
+
+
+/* POSITION FIXED */
+
+  position: fixed;
+  top:0;
+
+
+
+/*POSITION STICKY */
+
+  position: sticky;
+  top: 0;
+  
+
+}
+
+  /* Step 2: Position the labels within the .bug-wrapper. */
+.bug-wrapper {
+  display: inline-block;
+  /* Hint: add code here */
+  position: static;
+}
+
+.label-1 {
+  /* Hint: add code here */
+  position: relative;
+  bottom: 460px;
+  left: 400px;
+}
+
+.label-2 {
+  /* Hint: add code here */
+  position: relative;
+  bottom: 300px;
+  right: 220px;
+}
+
+.label-3 {
+  /* Hint: add code here */
+  position: relative;
+  bottom: 200px;
+  left: 90px;
+}
